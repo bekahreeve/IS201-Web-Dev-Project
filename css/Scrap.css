@@ -1,0 +1,35 @@
+/*format page heading with picture*/
+.masthead {
+  height: 400px;              /* makes it bigger */
+  background-size: cover;     /* fills the whole header */
+  background-position: center 30%;/* keeps image centered */
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;        /* vertical centering */
+  justify-content: center;    /* horizontal centering */
+}
+
+.page-heading {
+  text-align: center;
+}
+
+.page-heading h1 {
+  font-size: 3.5rem;          /* bigger text */
+  color: white;               /* stands out on image */
+  margin: 0;
+}
+/*Custom Background*/
+body {
+  background: linear-gradient(to right, #7b6e58);
+}
+
+body{font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: white;}
+
+.intro-box { padding: 30px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+  text-align: center;}
